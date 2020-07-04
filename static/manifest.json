@@ -1,0 +1,39 @@
+{
+	"background_color": "#ffffff",
+	"description": "Lorem ipsum dolor sit amet. Ameno",
+	"display": "standalone",
+	"icons": [
+		{
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"purpose": "maskable",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"purpose": "maskable",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"name": "4fun",
+	"short_name": "4fun",
+	"start_url": "http://localhost:8000/?utm_source=homescreen&utm_medium=shortcut",
+	"theme_color": "#ffffff",
+	"scope": "/",
+	"android_package_name": "com.4fun.android",
+	"prefer_related_applications": true,
+	"related_applications": [
+		{
+			"id": "com.4fun.android",
+			"platform": "chromeos_play",
+			"url": "https://play.google.com/store/apps/details?id=com.4fun.android"
+		}
+	]
+}
